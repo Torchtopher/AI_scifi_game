@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Science or Science Fiction?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>Real Science or Science Fiction?</h1>
+        <p class="subtitle">Read each statement and guess if it is real science or sci-fi.</p>
+      </header>
+
+      <section class="status-bar">
+        <div><strong>Round:</strong> <span id="round">1</span>/<span id="total-rounds">10</span></div>
+        <div><strong>Score:</strong> <span id="score">0</span></div>
+        <div><strong>Streak:</strong> <span id="streak">0</span></div>
+      </section>
+
+      <section class="card">
+        <p id="statement">Loading challenge...</p>
+      </section>
+
+      <section class="actions">
+        <button id="science-btn" class="choice science">Real Science</button>
+        <button id="scifi-btn" class="choice scifi">Science Fiction</button>
+      </section>
+
+      <section id="feedback" class="feedback" aria-live="polite"></section>
+
+      <section class="controls">
+        <button id="next-btn" disabled>Next Statement</button>
+        <button id="restart-btn">Restart Game</button>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

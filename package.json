@@ -1,0 +1,26 @@
+{
+  "name": "real-science-vs-sci-fi-game",
+  "version": "1.0.0",
+  "description": "A web game where players guess whether a statement is real science or science fiction.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "keywords": [
+    "game",
+    "science",
+    "sci-fi",
+    "digitalocean",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
